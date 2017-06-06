@@ -1,0 +1,545 @@
+#leftside, #main, #rightside, #container, #left, #right {
+float: left;
+display: inline;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+#container {
+padding: 10px 0 0;
+}
+
+#container:after, #footer:after, .clear, .blank, .cleaner {clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
+
+p.clear {margin: 0;}
+
+.pagebot {
+clear: both;
+padding-top: 30px;
+}
+
+#leftnav {
+margin: 30px 0 0;
+}
+
+#leftnav li {
+list-style-type: none;
+display: inline;
+}
+
+#leftnav li a {
+text-decoration: none;
+color: #3b76af;
+font-weight: bold;
+letter-spacing: -1px;
+font-size: 106%;
+padding: 6px 10px 8px 10px;
+background-color: #dbe8f1;
+margin: 0 0 1px 0;
+border-left: 1px solid #e8f0f6;
+border-right: 1px solid #e8f0f6;
+display: block;
+}
+
+#rightside {
+margin-top: 36px;
+}
+
+#rightpad ul {
+margin-left: 1.2em;
+}
+
+/*Template styles*/
+
+#wrapper {
+line-height: 1.5em;
+}
+
+.crumb {
+font-size: 85%;
+padding-left: 2px;
+}
+
+table {
+border-collapse: collapse;
+border-top: 1px solid #cbcbcb;
+border-left: 1px solid #cbcbcb;
+border-bottom: 1px solid #cbcbcb;
+margin: 1em 0 0;
+width: /*100%*/auto;
+}
+
+table th, table td {
+border: medium none;
+border-right: 1px solid #cbcbcb;
+text-align: left;
+vertical-align: top;
+}
+
+table th {
+border-bottom: 1px solid #cbcbcb;
+background-color: #E0E6EC;
+padding: 5px;
+}
+
+table tbody th {
+background-color: #f4f4f4;
+border-top: 1px solid #cbcbcb;
+}
+
+table td {
+padding: 3px 5px;
+}
+
+table tr.odd td {
+background-color: #f4f4f4;
+}
+
+table tr.last td {
+padding-bottom: 5px;
+}
+
+div.prepend-top, .prepend-top {
+  margin-top: 1.5em;
+}
+
+
+/*This stuff from here is pop topics template related*/
+
+.content ul {
+margin: 1em 0;
+padding: 0;
+}
+
+.content ul li, #frame ul li {
+list-style: none outside none;
+padding: 2px 0;
+}
+
+ul.bulleted {
+overflow: hidden;
+}
+
+ul.bulleted li {
+list-style: disc;
+margin-left: 1.2em;
+}
+
+ul.bulleted ul {
+overflow: hidden;
+}
+
+ul.bulleted ul li {
+list-style: circle;
+}
+
+.tiered-header {
+position: relative;
+}
+
+p.highlight {
+background-color: #99CCCC;
+padding: 3px; /*for migrant pages*/
+}
+
+#nav {
+bottom: 2px;
+left: 0;
+overflow: auto;
+position: absolute;
+width: 100%;
+margin: 0;
+background: transparent url(http://www.wcl.govt.nz/images/pop-alpha-bg.png) top left repeat;
+}
+
+#nav li {
+display: inline;
+}
+
+#nav li a {
+color: #454545;
+float: left;
+font-weight: bold;
+margin-right: 4px;
+padding: 6px 6px 4px;
+text-decoration: none;
+}
+
+#nav li a#current, #nav li a:hover {
+color: #185DA0;
+}
+
+#nav li a.first {
+padding-left: 10px;
+}
+
+#page-header h1 {
+margin: 20px 0 10px;
+}
+
+#page-header h1 a {
+text-decoration: none;
+}
+
+#page-header h1 span {
+font-weight: normal;
+padding: 0 3px;
+}
+
+.subheader ul, #pagenav ul {
+margin: 0;
+}
+
+.imageheader {
+display: block;
+}
+
+.subheader {
+background-color: #F4F4F4;
+border-bottom: 1px solid #CCCCCC;
+color: #808080;
+margin: 3px 0 15px;
+overflow: auto;
+padding: 8px;
+}
+
+ul.inline {
+margin: 0 0 1em 0;
+}
+
+.subheader li, .inline li, #pagenav li, h2.inline {
+display: inline;
+} /*#pagenav is from branch pages*/
+
+h2.inline {
+margin: 0 15px 0 0;
+float: left;
+}
+
+.nobanner {
+border-bottom: 1px solid #CBCBCB;
+border-top: 1px solid #CBCBCB;
+margin: 15px 0 30px;
+padding: 10px;
+}
+
+.headerimage {
+display: block;
+}
+
+.headerimage .alignleft {
+  margin: 0;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.center {
+margin: 5px auto;
+display: block;
+}
+
+.more {
+position: absolute;
+left: -1000px;
+width: 900px;
+} /*can this be amalgamated with .hide? where is this?*/
+
+.hide {
+height: 1px;
+left: 0px;
+overflow: hidden;
+position: absolute;
+top: -500px;
+width: 1px;
+}
+
+.left_box {
+background: none repeat scroll 0 0 #F4F4F4;
+border: 1px solid #CCCCCC;
+color: #000000;
+margin: 0 0 10px;
+padding: 10px;
+}
+
+.left_box h3:first-child, .articles h3:first-child, .right_articles h3:first-child, #left h2:first-child, #right h2:first-child {
+margin-top: 0;
+}
+
+.left_links {
+padding: 0 20px 20px 20px;
+border: 1px solid #eee;
+}
+
+.left_side {
+float: left;
+width: 49%;
+}
+
+.left_side h2:first-child, .right_side h2:first-child {
+margin-top: 0;
+}
+
+.right_side {
+float: right;
+width: 50%;
+}
+
+.left_links p {
+clear: both;
+padding: 25px 0 0;
+}
+
+.left_links h3 a {
+color: #FE6700;
+}
+
+.right_login {
+padding: 5px 0 5px 5px;
+margin: 0 0 15px 0;
+background: #7294B5;
+color: #246088;
+}
+
+.right_login form {
+padding: 5px;
+}
+
+.right_login select {
+width: 80%;
+}
+
+.right_articles, .articles {
+border: 1px solid #EEEEEE;
+margin: 0 0 10px;
+padding: 8px;
+}
+
+.column_image {
+border: 1px solid #CCCCCC;
+display: block;
+margin: 5px 0;
+max-width: 400px;
+padding: 2px;
+width: 45%;
+} /*from branch pages*/
+
+.notopmargin {
+margin-top: 0;
+padding-top: 0;
+}
+
+.reviews {
+margin: 0;
+padding: 0;
+overflow: auto;
+width: 100%;
+}
+
+.reviews dd {
+margin: 5px 0 0;
+padding: 0;
+}
+
+.reviews dl {
+margin: 0 0 10px;
+padding: 0;
+overflow: auto;
+width: 100%;
+}
+
+.reviews.simple p {
+clear: left;
+}
+
+.reviews dl + p {
+margin-bottom: 15px;
+}
+
+.reviews.simple .amazon, .reviews.simple .alignleft, .cover, .image_left, .image, .alignleft, .amazon {
+float: left;
+margin: 0 10px 10px 0;
+}
+
+.image_right, .alignright, .right {
+float: right;
+margin: 0 0 10px 10px;
+}
+
+.alignright + .alignright {
+clear: right;
+}
+
+.border  {
+border: 1px solid #EFEFEF;
+}
+
+.section {
+padding-bottom: 0.75em;
+border-bottom: 1px solid #000;
+}
+
+.content table th, .content table td {
+padding: 0.2em 1em;
+vertical-align: top;
+}
+
+div.footnotes {
+border-top: 1px solid #eee;
+font-size: 80%;
+margin: 20px 0;
+}
+
+.footnotes ol, ol.footnotes {
+margin: 0 0 20px;
+padding: 0;
+}
+
+.footnotes li {
+list-style-position: inside;
+margin: 0.5em 0;
+}
+
+#gallery li, .content .gallery li {
+  float: left;
+  padding: 0 10px 10px 0;
+  margin: 0;
+}
+
+#gallery a, .gallery a {
+  display: block;
+  float: left;
+  padding: 3px;
+  border: 2px solid #ccc;
+}
+
+#gallery a img {
+  height: 80px;
+  width: 130px;
+}
+
+#gallery a img.portrait {
+  width: 72px;
+}
+
+#gallery a:hover, .gallery a:hover {
+  border: 2px solid #333;
+}
+
+
+#gallery li p a, .gallery li p a {
+border: medium none;
+float: none;
+display: inline;
+padding: 0;
+min-width: 
+}
+
+blockquote {
+background: url("/heritage/images/quote.gif") no-repeat scroll 0 5px #FFFFFF;
+    font-style: italic;
+    line-height: 1.8em;
+    margin: 1em 0;
+    padding: 0 25px 0 40px;
+}
+
+blockquote p {
+  padding: 5px 0;
+}
+
+blockquote p span {
+    background: url("/heritage/images/endquote.gif") no-repeat scroll left top #FFFFFF;
+    display: inline-block;
+    height: 22px;
+    margin-left: 10px;
+    width: 22px;
+}
+
+
+blockquote span.title {
+font-weight: bold;
+font-style: normal;
+}
+
+/*styles to fix Kea editor clash*/
+
+.kea-box {
+background-color: #ffcc00;
+width: 600px;
+}
+
+.kea-box textarea  {
+width: 99%;
+height: 400px;
+}
+
+.kea-box table {
+border: medium none;
+margin-top: 0;
+}
+
+.kea-box td {
+border: medium none;
+padding: 3px;
+margin: 0;
+}
+
+.container_16 .colborder, .container_12 .colborder {
+    border-right: 1px solid #EEEEEE;
+    margin-right: 30px;
+    padding-right: 39px;
+}
+
+.container_24 .colborder {
+    border-right: 1px solid #EEEEEE;
+    margin-right: 15px;
+padding-right: 14px;
+}
+
+
+hr {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: medium none;
+    clear: both;
+    color: #DDDDDD;
+    float: none;
+    margin: 0 0 1.45em;
+height: 1px;
+width: 100%;
+}
+
+hr.space {
+background-color: transparent;
+color: #fff;
+}
+
+.layouttable, .layouttable td, .layouttable table {
+border: medium none;
+}
+
+img.homepage-promo {
+display: none;
+}
+
+.rss a {
+background: url("/whatsnew/smallfeedicon.gif") no-repeat scroll left center #FFFFFF;
+display: inline-block;
+margin: 0;
+padding: 0 0 0 20px;
+}
+
+.large, #lp {
+color: #454545;
+font-size: 1.1em;
+font-weight: bold;
+}
+
+.mylibrary table td, .mylibrary table th, .mylibrary table {
+border: medium none;
+}
+
+.message-alert {
+    background: url("/css/imgs/icon-alert.gif") no-repeat scroll 10px 10px #FBE9E5;
+    border: 1px solid #EA927F;
+    padding: 11px 10px 0 44px;
+}

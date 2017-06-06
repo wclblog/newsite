@@ -6,6 +6,10 @@ margin-right: 10px;
 }
 
 #container {
+display: block;
+}
+
+#container {
 padding: 10px 0 0;
 }
 
